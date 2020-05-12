@@ -11,3 +11,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+alias ll="ls -l"
+alias updatedb="sudo /usr/libexec/locate.updatedb"
+alias grep="ggrep --color"
+alias find="gfind"
+alias make="gmake"
+alias utc="gdate --utc"
